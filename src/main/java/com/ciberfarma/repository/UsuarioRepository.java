@@ -11,3 +11,4 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Integer>{
 	Usuario findbyCuentaAndClave(String cuenta, String clave);
 
 }
+ 
